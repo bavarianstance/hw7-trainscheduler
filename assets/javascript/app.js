@@ -11,6 +11,12 @@
 
   let database = firebase.database();
 
+  let currentTime = () => {
+  	let current = moment().format('LT');
+  	$("#currentTime").html(current);
+  	setTimeout(currentTime,1000);
+  };
+
   $("#btn-add-train").on("click", (event) => {
   	event.preventDefault();
 
@@ -55,3 +61,4 @@ database.ref().on("child_added", (childSnapshot) => {
 //console.log("Errors : " + errorObject.code)
 });
 
+currentTime();
