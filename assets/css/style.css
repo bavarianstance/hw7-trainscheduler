@@ -3,3 +3,10 @@
   text-shadow: 2px 2px #0c0c0c;
 }
 
+hr.my-4 { border: 0;
+ height: 0; 
+/* Firefox... */
+box-shadow: 0 0 10px 1px white; 
+} hr.my-4:after { /* Not really supposed to work, but does */ 
+content: "\00a0";
+ /* Prevent margin collapse */ }
