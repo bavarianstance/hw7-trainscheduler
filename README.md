@@ -1,4 +1,4 @@
-# HW7-Giftastic
+# HW7-Train Scheduler
 
 ## Executive Summary
 * Short project showcasing use of Firebase real time DB, leveraged combination of popular libraries including jQuery and Bootstrap. 
