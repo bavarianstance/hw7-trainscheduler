@@ -17,7 +17,7 @@
 ### Comments
 * ES6 syntax
 * Added current timer function
-* Standard modules leveraged from bootstrap including Jumbotron, Buttons, Forms, etc.
+* Standard modules leveraged from bootstrap including Navbar, Jumbotron, Buttons, Forms, etc.
 * Moment.js leveraged to calculate next arrival and minutes away features
 * [Link to Github Live Pages](https://bavarianstance.github.io/hw7-trainscheduler/ "Live Deployed")
 
